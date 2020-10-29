@@ -12,6 +12,10 @@
   --group-border-focus: var(--input-border-focus);
   --group-background-focus: #678efe;
 }
+
+html {
+  scroll-behavior: smooth;
+}
 .site-header {
   background-color: #fff;
   -webkit-backdrop-filter: saturate(180%) blur(20px);
