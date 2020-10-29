@@ -43,6 +43,7 @@
 .banner .title {
   font-size: 2.5rem;
   line-height: 45px;
+  font-weight: bold;
 }
 .banner .lead {
   margin-top: 1rem;
@@ -52,11 +53,6 @@
 
 .banner .btn {
   margin-right: auto;
-}
-@media (max-width: 575.98px) {
-  .banner .btn {
-    margin: auto;
-  }
 }
 
 .contact-form {
@@ -72,18 +68,6 @@
   justify-content: center;
   align-items: center;
   padding: 0 10px;
-}
-
-@media (min-width: 768px) {
-  .contact-form {
-    padding: 0 40px;
-  }
-}
-
-@media (min-width: 1200px) {
-  .contact-form {
-    padding: 0 70px;
-  }
 }
 
 footer {
@@ -115,17 +99,20 @@ footer .logo-img {
 }
 
 .section_1 ul li::before {
+  display: block;
   content: '\2022';
   font-size: 1.7rem;
   color: var(--primary);
   font-weight: bold;
   display: inline-block;
   width: 1em;
-  margin-left: -1em;
+  margin-right: 1rem;
 }
 .section_1 ul li {
   margin: 20px 0;
   font-size: 1.125rem;
+  display: flex;
+  align-items: baseline;
 }
 
 .section_2 {
@@ -234,4 +221,28 @@ footer .logo-img {
 
 .footer-content {
   padding: 6rem 3rem 3rem 0;
+}
+
+@media (max-width: 575.98px) {
+  .banner .btn {
+    margin: auto;
+  }
+}
+
+@media (min-width: 768px) {
+  .contact-form {
+    padding: 0 40px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .contact-form {
+    padding: 0 70px;
+  }
+}
+
+@media (max-width: 768px) {
+  .section_1 ul {
+    padding-left: 0;
+  }
 }
