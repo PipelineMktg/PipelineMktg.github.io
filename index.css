@@ -117,7 +117,8 @@ footer .logo-img {
 
 .section_2 {
   background-color: #f5f6fa;
-  padding: 3rem 3rem 5rem 3rem;
+  /* padding: 3rem 3rem 5rem 3rem; */
+  padding: 3rem;
 }
 
 .section_2 img {
@@ -219,19 +220,24 @@ footer .logo-img {
   text-align: center;
 }
 
-.footer-content {
-  padding: 6rem 3rem 3rem 0;
-}
-
 @media (max-width: 575.98px) {
   .banner .btn {
     margin: auto;
   }
 }
 
+.footer-content {
+  /* padding-top: 8rem; */
+}
+
 @media (min-width: 768px) {
   .contact-form {
     padding: 0 40px;
+  }
+  .footer-content {
+    /* padding: 6rem 3rem 3rem 0; */
+  }
+  .contact-form {
   }
 }
 
