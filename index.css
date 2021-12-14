@@ -109,7 +109,7 @@ footer .logo-img {
   color: var(--primary);
   font-weight: bold;
   display: inline-block;
-  width: 1em;
+  /* width: 1em; */
   margin-right: 1rem;
 }
 .section_1 ul li {
