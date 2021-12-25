@@ -55,19 +55,21 @@ body{
   color: #fff;
 }
 .banner .title {
-  font-size: 50px;
+  font-size: 43px;
   line-height: 58.60px;
   font-weight: 700;
 }
 .banner .lead {
-  margin-top: 1rem;
-  font-size: 22px;
+  margin-top: 2rem;
+  font-size: 18px;
   font-weight: 400;
   line-height: 26px;
 }
 
 .banner .btn {
   margin-right: auto;
+  font-size: 18px;
+  font-weight: bold;
 }
 
 .contact-form {
@@ -109,7 +111,7 @@ footer .logo-img {
   background-position: center center;
 }
 .section_1 .title {
-  font-size: 37px;
+  font-size: 35px;
   line-height: 43.36px;
   border-bottom-width: 4px !important;
   padding-bottom: 15px;
@@ -122,7 +124,7 @@ footer .logo-img {
 }
 .section_1 img {
   height: 100%;
-  margin-left: -20%;
+  margin-left: -30%;
 }
 
 .section_1 ul li::before {
@@ -133,13 +135,14 @@ footer .logo-img {
   font-weight: bold;
   display: inline-block;
   /* width: 1em; */
-  margin-right: 1rem;
+  margin-right: 0.675rem;
 }
 .section_1 ul li {
   margin-top: 15px;
-  font-size: 25px;
+  font-size: 20px;
   display: flex;
   align-items: baseline;
+  margin-left: -15px;
 }
 
 .section_2 {
@@ -184,6 +187,10 @@ footer .logo-img {
   font-size: 17px;
   line-height: 21px;
   font-weight: 400;
+}
+.section_2 .btn{
+  font-size: 18px;
+  font-weight: bold;
 }
 /* .section_3 */
 .section_3 .bg-partner{
@@ -330,7 +337,10 @@ min-height: 165px;
 
 @media (max-width: 768px) {
   
-  
+  .img-responsive{
+    width: 100%;
+    margin-left: 0 !important;
+  }
   .banner  .title {
     font-size: 40px;
     line-height: normal;
